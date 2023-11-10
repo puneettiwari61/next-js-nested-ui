@@ -1,5 +1,5 @@
 "use client";
-import React, { memo, useState } from "react";
+import React, { useState } from "react";
 
 const Subsection = ({ data }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,4 +44,4 @@ const Subsection = ({ data }) => {
   );
 };
 
-export default memo(Subsection);
+export default Subsection;
